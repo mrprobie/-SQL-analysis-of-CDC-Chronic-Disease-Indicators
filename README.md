@@ -12,36 +12,35 @@ Dataset
 
 Source: CDC Chronic Disease Indicators Dataset
 
-Topics include:
+- **Topics Included:**
+    - <sub>Diabetes</sub>
+    - <sub>Cardiovascular disease</sub>
+    - <sub>Obesity</sub>
+    - <sub>Hypertension</sub>
+    - <sub>Smoking</sub>
+- **Tools Used:**
+    - <sub>DuckDB</sub>
+    - <sub>Python</sub>
+    - <sub>SQL window functions</sub>
+    - <sub>Aggregate analysis and trend analysis</sub>
+- **SQL Concepts Demonstrated:**
+    - <sub>GROUP BY aggregation</sub>
+    - <sub>AVG, MIN, MAX, COUNT</sub>
+    - <sub>Common Table Expressions (CTEs)</sub>
+    - <sub>CASE WHEN</sub>
+    - <sub>Window functions with RANK() OVER()</sub>
+    - <sub>Comparative demographic analysis</sub>
+    - <sub>Time-series trend analysis</sub>
+- **Key Findings:**
+    - <sub>Cardiovascular disease showed the highest overall burden.</sub>
+    - <sub>Diabetes had large variation across states.</sub>
+    - <sub>The hypertension gender gap shifted from slightly higher in women (2016) to higher in men (2022).</sub>
+    - <sub>Michigan and Ohio ranked among the highest obesity prevalence states.</sub>
+    - <sub>Smoking prevalence differed noticeably across demographic groups.</sub>
+- **Files:**
+    - <sub>`cdc_cdi_analysis.sql` — Main SQL analysis queries</sub>
+- **Goal**
 
-Diabetes
-Cardiovascular disease
-Obesity
-Hypertension
-Smoking
-Tools Used
-DuckDB
-Python
-SQL window functions
-Aggregate analysis and trend analysis
-SQL Concepts Demonstrated
-GROUP BY aggregation
-AVG, MIN, MAX, COUNT
-Common Table Expressions (CTEs)
-CASE WHEN
-Window functions with RANK() OVER()
-Comparative demographic analysis
-Time-series trend analysis
-Key Findings
-Cardiovascular disease showed the highest overall burden.
-Diabetes had large variation across states.
-The hypertension gender gap shifted from slightly higher in women (2016) to higher in men (2022).
-Michigan and Ohio ranked among the highest obesity prevalence states.
-Smoking prevalence differed noticeably across demographic groups.
-Files
-cdc_cdi_analysis.sql — Main SQL analysis queries
-cdi_loader.py — Dataset loading and validation pipeline
-Goal
 
 This project was built to practice applied SQL analytics on public health data and demonstrate skills in:
 
