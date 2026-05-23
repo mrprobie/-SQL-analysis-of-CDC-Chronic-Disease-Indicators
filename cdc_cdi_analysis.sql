@@ -162,6 +162,4 @@ ORDER  BY avg_smoking_pct DESC;
 -- ============================================================
 -- END OF ANALYSIS
 -- All queries validated against 27,300-row dataset.
--- Results are reproducible; see cdi_loader.py for dataset
--- preparation steps.
 -- ============================================================
