@@ -3,7 +3,7 @@
 -- Dataset : data.cdc.gov/g4ie-h725  |  27,300 records
 -- Scope   : 50 U.S. states, 2016–2022, 5 disease categories
 -- Author  : Macire Fofana
--- Tools   : DuckDB (SQL), Python (data loading & validation)
+-- Tools   : DuckDB (SQL)
 -- ============================================================
 -- Dataset columns:
 --   year, location_abbr, location_desc, topic, question,
