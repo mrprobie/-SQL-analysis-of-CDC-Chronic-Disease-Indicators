@@ -1,4 +1,4 @@
-CDC Chronic Disease Indicators (CDI) — SQL Analysis
+## Heading 2 CDC Chronic Disease Indicators (CDI) — SQL Analysis
 
 SQL analysis project using the CDC Chronic Disease Indicators dataset (27,300 records covering all 50 U.S. states from 2016–2022). This project explores national disease trends, demographic disparities, and state-level health outcomes using analytical SQL in DuckDB.
 
