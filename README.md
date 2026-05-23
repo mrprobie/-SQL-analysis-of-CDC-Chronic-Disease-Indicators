@@ -20,7 +20,6 @@ Source: CDC Chronic Disease Indicators Dataset
     - <sub>Smoking</sub>
 - **Tools Used:**
     - <sub>DuckDB</sub>
-    - <sub>Python</sub>
     - <sub>SQL window functions</sub>
     - <sub>Aggregate analysis and trend analysis</sub>
 - **SQL Concepts Demonstrated:**
